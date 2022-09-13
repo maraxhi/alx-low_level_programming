@@ -10,7 +10,7 @@ char *sh = "0-putchar";
 	while (*sh)
 	{
 		_putchar(*sh);
-		c++;
+		sh++;
 	}
 	_putchar('\n');
 return (0);
