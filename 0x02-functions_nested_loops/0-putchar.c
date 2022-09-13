@@ -6,10 +6,10 @@
 */
 int main(void)
 {
-char *c = "0-putchar";
-	while (*c)
+char *sh = "0-putchar";
+	while (*sh)
 	{
-		_putchar(*c);
+		_putchar(*sh);
 		c++;
 	}
 	_putchar('\n');
